@@ -1,0 +1,28 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsx --test test/",
+    "build": "tsc",
+    "start": "node dist/src/cli.js serve",
+    "demo": "tsx src/cli.ts demo",
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "5.9"
+  },
+  "bin": {
+    "sgf": "dist/src/cli.js"
+  }
+}
